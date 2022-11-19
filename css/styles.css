@@ -203,18 +203,21 @@ nav {
 }
 .team ul {
   display: flex;
-  justify-content: space-between;
   padding-bottom: 94px;
 }
-.team ul > li {
+.team-item{
   background: #fff;
+}
+.team-item:not(:last-child) {
+  margin-right: 20px;
 }
 .team-title {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 50px;
   color: var(--primary-color);
 }
 .name {
